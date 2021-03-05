@@ -154,3 +154,66 @@ p {
     bottom: -100px;
     z-index: -1;   
 }
+
+@media screen and (max-width: 768px) {
+
+.header-wrap{
+    width: 90%;/*header-logoそのまま　横のサイズを９０％指定*/
+}
+
+.header-nav {
+    display: none;/*nav消す*/
+}
+
+.hamburger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    right: 20px;
+    transition: 0.4s;
+}
+
+.hamburger span {
+    position: absolute;
+    left: 2px;
+    width: 100%;
+    display: block;
+    height: 2px;
+    color:#00277e;
+    transition: 0.8s;
+}
+
+.hamburger span:nth-of-type(1) {
+    top: 10px;
+}
+
+.hamburger span:nth-of-type(2){
+    top: 20px;
+}
+
+.hamburger span:nth-of-type(3) {
+    top: 30px;
+}
+
+p {
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    bottom: 50%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 0 0 10%;
+}
+
+.box {
+    width: 90%;
+    bottom: 0;
+}
+
+.main {
+    height: calc(100vh - 70px);
+}
+}

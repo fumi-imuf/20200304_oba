@@ -99,3 +99,32 @@ input, select {
 /* ーーーーーーーーーー */
 /* cssリセットここまで */
 /* ーーーーーーーーーー */
+
+.header-wrap {
+    display: flex; /* header-logo と　navを横並びにする*/
+    justify-content: space-between; /* header-logo, navを両端に置く*/
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header-logo {
+   font-size: 35px;
+   color: #00277e;
+   font-weight: bold; 
+}
+
+.header-nav ul {
+    display: flex; /* 要素を横並びにする */
+    justify-content: space-between;
+}
+
+.header-nav li {
+    font-weight: bold;
+    color: #00277e;
+
+}
+
+.img {
+    display: block;
+    width: 50%;
+}
